@@ -1,0 +1,44 @@
+.worker-strip {
+    margin: 20px;
+    text-align: center;
+}
+
+.worker-strip form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.worker-strip input {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 250px;
+}
+
+.worker-strip button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.worker-strip button:hover {
+    background-color: #0056b3;
+}
+
+.worker-strip input:focus,
+.worker-strip button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

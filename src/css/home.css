@@ -1,0 +1,6 @@
+.strip{
+    min-height: 350px;
+    background: grey;
+    background-position: center;
+    background-size: cover;
+}
